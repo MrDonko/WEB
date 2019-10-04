@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "montserrat",sans-serif;
+}
+.b1{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background:  #24252A;
+  top: -10px;
+  display: table;
+  background-size: cover;
+}
+.b1 .in1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.content h1{
+  font-family: 'Century Gothic',sans-serif;
+  color: #f9f3f4;
+  font-size: 200%;
+  text-shadow: 0 0 300px #000;
+}
+.content .btn{
+  border-radius: 9px;
+  color: #f9f3f4;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif;
+  border: 3px solid;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+.content .btn:hover{
+  color: #2196f3;
+}
+p{
+  font-size: 160%;
+  line-height: 200%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
+}
+.middle{
+  width: 100%;
+}
+.counting-sec{
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(90deg,#3c6382,#588db7);
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.col i{
+  font-size: 40px;
+  color: #fff;
+}
+.num{
+  font-size: 50px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.services{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  font-family: 'Century Gothic',sans-serif;
+}
+.container{
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.container .box{
+  position: relative;
+  width: 260px;
+  background:#588db7;
+  padding: 30px 40px 30px 50px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin: 5px;
+
+}
+.container .box h2 {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.container .box h3{
+  position: relative;
+  font-size: 1em;
+
+}
+.container .box p{
+  font-size: 1em;
+  text-align: center;
+
+}
+.container .box a{
+  text-decoration: none;
+  font-size: 1em;
+
+}
+footer{
+  background: #24252A;
+  padding: 10px;
+  text-align: right;
+}
+
+.copyrigt{
+  color: #f9f3f4;
+  font-size: 1em;
+  float: left;
+  margin: 15px;
+}
+.steamimg{
+  float: right;
+}
+.container .box button:hover {
+  display: flex;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  color: #2196f3;
+  text-decoration: none;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.container .box button{
+  display: flex;
+  background-color: #588db7;
+  border: 2px solid #fff;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .steamimg {
+    display: none;
+  }
+}
